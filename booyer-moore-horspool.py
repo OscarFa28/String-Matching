@@ -40,13 +40,13 @@ class StringMatching():
                 
     
     
-text = "este es un texto de prueba que prueba textos que tienen letras en el texto"
-pattern = "text"
+text = "This is a sample text that you can use for testing your pattern matching code. It contains various words and characters to search through the text."
+pattern = "ing"
 
 st = StringMatching()
 
 shifts = st.bmh(text, pattern) 
 
 print(shifts)
-print("Número de apariciones: "+str(len(shifts)))
+print("Coincidences: "+str(len(shifts)))
 

@@ -17,7 +17,7 @@ class StringMatching():
                 
         return self.shifts
 
-text = "este es un texto de prueba que prueba textos"
+text = "This is a sample text that you can use for testing your pattern matching code. It contains various words and characters to search through the text."
 pattern = "text"
 
 st = StringMatching()
@@ -25,6 +25,6 @@ st = StringMatching()
 shifts = st.naive_matching(text, pattern) 
 
 print(shifts)
-print("Número de apariciones: "+str(len(shifts)))
+print("Coincidences: "+str(len(shifts)))
 
             
